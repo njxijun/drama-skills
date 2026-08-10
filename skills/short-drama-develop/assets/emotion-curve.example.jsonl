@@ -1,0 +1,7 @@
+{"episode_id": "EP001", "scene_index": 1, "emotion_value": 15, "function": "铺垫", "beat_note": "开场日常：主角在外卖站点等单，同事闲聊，建立她被忽视的处境", "music_cue": null}
+{"episode_id": "EP001", "scene_index": 2, "emotion_value": 25, "function": "铺垫", "beat_note": "接到高档餐厅的大额外卖单，同事调侃'那种地方岂是我们能进的'，埋下阶层反差的伏笔", "music_cue": null}
+{"episode_id": "EP001", "scene_index": 3, "emotion_value": 55, "function": "推进", "beat_note": "进店被经理以着装为由拦下，公开训斥，主角选择隐忍不辩解", "music_cue": {"action": "介入", "reason": "从25跳到55：屈辱感第一次显性化，用低沉弦乐标记'她在忍'而不是台词喊出来"}}
+{"episode_id": "EP001", "scene_index": 4, "emotion_value": 40, "function": "推进", "beat_note": "主角默默离开后台，独自在楼梯间喘息平复，观众第一次看到她的裂缝", "music_cue": null}
+{"episode_id": "EP001", "scene_index": 5, "emotion_value": 90, "function": "高潮", "beat_note": "餐厅董事长临时到访认出主角是自己的女儿，经理当场愣住，权力关系瞬间反转", "music_cue": {"action": "介入", "reason": "从40跳到90：全集最大反转点，音乐需要在'认出'那一帧卡点进入，不能提前泄底"}}
+{"episode_id": "EP001", "scene_index": 6, "emotion_value": 70, "function": "高潮", "beat_note": "经理试图找补讨好，主角不接话，只让父亲处理，把权力优势留在动作而非台词里", "music_cue": null}
+{"episode_id": "EP001", "scene_index": 7, "emotion_value": 20, "function": "铺垫", "beat_note": "结尾回到平静：主角独自坐进董事长专属电梯，为下一集'她要不要用这层身份'埋钩子", "music_cue": {"action": "退出", "reason": "从70骤降到20：音乐在电梯门关上时收掉，把钩子留给沉默和字幕卡"}}

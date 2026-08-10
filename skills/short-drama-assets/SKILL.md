@@ -89,7 +89,8 @@ license: MIT
 按类别沉淀，身份锚点与临时状态绝不混写：
 
 - Character / Look：`references/character-and-look.md`；例见
-  `assets/character-look.example.jsonl`
+  `assets/character-look.example.jsonl`。已确认有血缘关系的角色，先接受父母锚点、
+  子女才能继承对应维度，生成顺序见 `references/lineage-generation.md`
 - Location / View：`references/location-and-view.md`；例见
   `assets/location-view.example.jsonl`
 - Prop / State：`references/prop-and-state.md`；例见
@@ -114,7 +115,8 @@ field pointer 及必要投影；修订仍路由到 develop/write owner。
 
 1. 建议复用（为什么是同一个）；
 2. 建议新增变体（没变什么、变了什么、原因与有效期）；
-3. 建议新增身份（区分它的持久证据）；
+3. 建议新增身份（区分它的持久证据；带 `lineage` 的角色要说明继承自哪位家长的
+   哪个锚点维度，父母锚点未接受时明确标出本次只能是 `provisional`）；
 4. 未决项（原文证据、候选、每个选择的下游影响）；
 5. 连续性变化与需带入下一集的 outgoing。
 

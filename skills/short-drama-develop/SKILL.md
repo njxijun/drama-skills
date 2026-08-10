@@ -76,7 +76,16 @@ license: MIT
 先保证每集产生局部戏剧结果、相邻集能精确交接，再讨论外部压力/情感负荷的双轨
 节奏。集数、钩子类型、是否反转和高潮位置由创作者与项目决定。
 
-### 5. 做所有者检查并交接
+### 5. 场次级情绪曲线复核（该集剧本写完后）
+
+`short-drama-write` 完成该集剧本、场次序号确定后，读取已接受剧本回填
+[emotion-curve.md](references/emotion-curve.md) 描述的场次级 0–100 曲线：标出该集节奏
+在场次颗粒度上哪里松哪里紧，走势要能与该集 `rhythm_plan` 的定性判断互相印证；
+跳变点（相邻场差值≥30）标出配乐/剪辑介入建议。这是读取剧本结果做结构化复核，
+不是先画曲线再指导怎么写——发布顺序永远是先剧本、后曲线。没有剧本或场次序号未定
+时跳过本步，不要靠曲线代替分场。
+
+### 6. 做所有者检查并交接
 
 在提交预览前检查：
 
@@ -113,6 +122,7 @@ license: MIT
   [adaptation-map.example.jsonl](assets/adaptation-map.example.jsonl)）
 - `项目开发/series-arc.json`（项目需要时）
 - `项目开发/episode-map.jsonl`
+- `项目开发/emotion-curve.jsonl`（该集剧本写完后的场次级情绪曲线复核；项目需要时）
 
 它不写场景动作与台词，不拆资产，不写图片/视频提示词，不生成媒体，也不签发终审结论。剧本语义由 `$short-drama-write` 接管。
 
@@ -136,4 +146,6 @@ license: MIT
   [premise-devices.md](references/premise-devices.md)（装置层，叠加在题材卡之上）
 - **起草项目级视觉方向与生产规则（导演阐述）**：
   [director-brief-craft.md](references/director-brief-craft.md)
+- **该集剧本写完后，需要场次级 0–100 情绪曲线复核、标配乐/剪辑跳变点**：
+  [emotion-curve.md](references/emotion-curve.md)
 - **本阶段拥有什么、继承什么、不越权什么**：[stage-contract.md](references/stage-contract.md)
